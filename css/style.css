@@ -1,1 +1,37 @@
+.calcBody {
+  background: black;
+  width: 35%;
+  box-shadow: 5px 5px 50px darkgrey;
+}
 
+.row {
+  display: flex;
+  justify-content: space-around;
+}
+
+.stud {
+  display: flex;
+  justify-content: center;
+  font-size: 1.5em;
+  align-items: center;
+  width: 100px;
+  height: 75px;
+  border: 1px solid rgba(darkgrey, 0.15);
+  cursor: pointer;
+  text-shadow: 1px 1px 2px darkgrey;
+  transition: all 150ms ease-out;
+  &:hover {
+    background: darkgrey;
+  }
+}
+
+.opBtn {
+    background: beige;
+    font-size: 2.25em;
+    text-shadow: 1px 1px 2px black;
+    transition: all 150ms ease-out;
+    &:hover {
+      background: grey;
+      text-shadow: 1px 1px 2px darken(white, 25);
+    }
+  }
