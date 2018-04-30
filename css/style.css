@@ -1,67 +1,78 @@
 .container {
-  display: flex;
-  flex-direction: column;
-  position: fixed;
-  justify-content: center;
-  align-items: center;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  color: white;
-}
-
-h1,h3 {
-    color: black;
-}
-
-.calcBody {
-  background: black;
-  width: 35%;
-  box-shadow: 5px 5px 50px darkgrey;
-}
-
-.row {
-  display: flex;
-  justify-content: space-around;
-}
-
-#display {
-  display: flex;
-  align-items: flex-end;
-  padding: 25px;
-  font-size: 1.25em;
-}
-
-.stud {
-  display: flex;
-  justify-content: center;
-  font-size: 1.5em;
-  align-items: center;
-  width: 100px;
-  height: 75px;
-  border: 1px solid rgba(darkgrey, 0.15);
-  cursor: pointer;
-  text-shadow: 1px 1px 2px darkgrey;
-  transition: all 150ms ease-out;
-  border-style: groove;
-  border-width: 1px;
-}
-
-.stud:hover {
-  background: darkgrey;
-}
-
-.opBtn {
-    background: beige;
-    font-size: 2.25em;
-    text-shadow: 1px 1px 2px black;
+    display: flex;
+    flex-direction: column;
+/*     position: fixed; */
+/*     justify-content: center; */
+    align-items: center;
+/*     top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0; */
+    width: 100%;
+    height: 100%;
+    
+  }
+  
+/*   h1,h3 {
+      color: black;
+  }
+   */
+  .calcBody {
+    background: skyblue;
+    color: white;
+    width: 20%;
+    box-shadow: 5px 5px 50px darkgrey;
+    border-radius: 5%;
+    padding: 15px;
+  }
+  
+/*   .row { */
+/*     display: flex; */
+/*     justify-content: space-around; */
+/*   } */ 
+  
+  #display {
+/*     display: flex; */
+/*     align-items: flex-end; */
+    padding: 5px;
+    font-size: 3em;
+  }
+  
+  .stud {
+    display: flex;
+    justify-content: center;
+    font-size: 1.5em;
+    align-items: center;
+    width: 100px;
+    height: 75px;
+    border: 1px solid rgba(darkgrey, 0.15);
+    border-radius: 15%;
+    cursor: pointer;
+    text-shadow: 1px 1px 2px darkgrey;
     transition: all 150ms ease-out;
+/*     border-style: groove; */
+    border-width: 1px;
+    margin: 5px;
+    text-shadow: 1px 1px 2px grey;
+  }
+  
+  .stud:hover {
+    background: darkgrey;
   }
 
-.opBtn:hover {
-  background: grey;
-  text-shadow: 1px 1px 2px darken(white, 25);
+.placeholder:hover {
+  cursor: default;
+  background: none;
 }
+  
+  .opBtn {
+      background: beige;
+      font-size: 2.25em;
+      text-shadow: 1px 1px 2px black;
+      transition: all 150ms ease-out;
+    }
+  
+  .opBtn:hover {
+    background: grey;
+    text-shadow: 1px 1px 2px darken(white, 25);
+  }
