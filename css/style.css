@@ -29,6 +29,7 @@ h1,h3 {
 }
 
 #display {
+  display: flex;
   align-items: flex-end;
   padding: 25px;
   font-size: 1.25em;
