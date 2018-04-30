@@ -28,6 +28,12 @@ h1,h3 {
   justify-content: space-around;
 }
 
+.display {
+  align-items: flex-end;
+  padding: 25px;
+  font-size: 1.25em;
+}
+
 .stud {
   display: flex;
   justify-content: center;
